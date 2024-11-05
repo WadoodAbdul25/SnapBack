@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        {% csrf_token %}
+        <input type="text" name="rv_type" placeholder="RV Type">
+        <input type="text" name="manufacturer" placeholder="Manufacturer">
+        <input type="text" name="leveling_system" placeholder="Leveling System">
+        <input type="text" name="jack" placeholder="Jack">
+        <input type="text" name="year" placeholder="Year">
+        <button type="submit">submit</button>
+    </form>
+
+    {% if prediction %}
+    <p>Prediction: {{ prediction }}</p>
+{% endif %}
+</body>
+</html>
