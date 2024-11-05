@@ -8,6 +8,7 @@ import joblib
 import json
 from django.views.decorators.csrf import csrf_exempt
 
+
 # Load environment variables
 load_dotenv()
 API_KEY = os.getenv('API_KEY_OPENAI')
