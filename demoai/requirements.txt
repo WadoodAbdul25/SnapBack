@@ -1,4 +1,3 @@
-altgraph @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
 annotated-types==0.7.0
 anyio==4.3.0
 appnope==0.1.4
@@ -32,8 +31,6 @@ dj-database-url==2.3.0
 Django==4.2.16
 django-cors-headers==4.4.0
 django-heroku==0.3.1
-# Editable install with no version control (django-storages==1.14.3)
--e /Users/wadoodabdul/Desktop/Flowmann/flowman/src/django-storages
 django-utils-six==2.0
 djangorestframework==3.15.2
 docopt==0.6.2
@@ -45,7 +42,6 @@ filelock==3.13.3
 folium==0.16.0
 fonttools==4.49.0
 fqdn==1.5.1
-future @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/future-0.18.2-py3-none-any.whl
 google-api-core==2.19.2
 google-auth==2.34.0
 google-cloud-vision==3.7.4
@@ -84,7 +80,6 @@ jupyterlab_pygments==0.3.0
 jupyterlab_server==2.25.4
 jupyterlab_widgets==3.0.10
 kiwisolver==1.4.5
-macholib @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/macholib-1.15.2-py2.py3-none-any.whl
 MarkupSafe==2.1.5
 matplotlib==3.8.3
 matplotlib-inline==0.1.6
@@ -124,11 +119,11 @@ pydantic_core==2.20.1
 Pygments==2.17.2
 pyparsing==3.1.2
 python-dateutil==2.9.0.post0
-python-dotenv==1.0.1
 python-json-logger==2.0.7
 pytz==2024.1
 PyYAML==6.0.1
 pyzmq==25.1.2
+python-dotenv == 1.0.1
 qtconsole==5.5.1
 QtPy==2.4.1
 referencing==0.34.0
@@ -139,7 +134,6 @@ rpds-py==0.18.0
 rsa==4.9
 s3transfer==0.10.1
 Send2Trash==1.8.2
-six @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/six-1.15.0-py2.py3-none-any.whl
 sniffio==1.3.1
 soupsieve==2.5
 sqlparse==0.5.0
