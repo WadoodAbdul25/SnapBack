@@ -75,6 +75,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "demoai.wsgi.application"
 
+CORS_ALLOWED_ORIGINS = [
+    "https://snapfront.netlify.app/",  # Replace with your Netlify URL
+]
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
