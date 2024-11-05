@@ -76,7 +76,8 @@ TEMPLATES = [
 WSGI_APPLICATION = "demoai.wsgi.application"
 
 CORS_ALLOWED_ORIGINS = [
-    "https://snapfront.netlify.app/",  # Replace with your Netlify URL
+    "https://snapfront.netlify.app/",
+      "https://essentchatbot.netlify.app/",  
 ]
 
 # Database
